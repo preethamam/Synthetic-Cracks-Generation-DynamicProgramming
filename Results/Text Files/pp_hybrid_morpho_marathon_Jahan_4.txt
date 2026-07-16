@@ -1,0 +1,284 @@
+Algorithm Type Switch 
+---------------------------------------------------------------------------
+Algorithm type: hybrid_hessian 
+Classifier required to filter blobs: classifier 
+Post-processing using circularity index: 0 
+Post-processing type: circularity 
+Image closing switch: 0 
+Image closing structuring element disk size: 5 
+Crack debrancher: no 
+Crack thin prune method: alex 
+Crack thin prune threshold: 0.350 
+Crack or cracks + non-cracks: crack_only 
+
+
+Algorithm Inputs 
+---------------------------------------------------------------------------
+Circularity threshold: 0.0200 0.2000
+Image contrasting algorithm: image_adjust 
+Block size [rows cols] 15000 15000 
+Non-crack class number: 1 
+Crack class number: 2 
+CC overlap: 50% 
+Blob removal method: autoBlobRemoval
+Blob filter standard deviation scale: 1.0000 
+Blob filter removal area: < 120 pixels
+Anisotropic iteration numbers: 0 0 
+Anisotropic kappa: 30 15 
+Frangi scale range: 1 5 
+Frangi scale ratio: 1 
+Frangi beta one: 0.5000 
+Frangi beta two: 25.0000 
+
+
+Trained Classifiers 
+---------------------------------------------------------------------------
+ANN classifier filename: ZZZ_MdlANN_hessian_Realworld_elasticDefAug.mat
+KNN classifier filename: ZZZ_MdlKNN_hessian_Realworld_elasticDefAug.mat
+SVM classifier filename: ZZZ_MdlSVM_hessian_Realworld_elasticDefAug.mat
+
+
+Each object wise (Bounding Box) classification results 
+---------------------------------------------------------------------------
+Classifier name      ANN           KNN            SVM 
+---------------------------------------------------------------------------
+Precision           0.4308         0.0602         0.0332 
+Recall              0.6512         0.6512         0.6279 
+F1score             0.5185         0.1102         0.0631 
+
+
+Each object wise (Pixels) classification results 
+---------------------------------------------------------------------------
+Classifier name      ANN           KNN            SVM 
+---------------------------------------------------------------------------
+Precision           0.4391         0.4292         0.4167 
+Recall              0.8600         0.8516         0.7843 
+F1score             0.5814         0.5708         0.5442 
+Accuracy            0.9470         0.9452         0.9438 
+Specificity         0.9509         0.9493         0.9509 
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+
+
+Each object wise (Bounding Box) classification results by MATLAB
+---------------------------------------------------------------------------
+Classifier name      ANN           KNN            SVM 
+---------------------------------------------------------------------------
+Precision           0.4308         0.0602         0.0332 
+Recall              0.6512         0.6512         0.6279 
+F1score             0.5185         0.1102         0.0631 
+
+
+Each object wise (Pixels) classification results by MATLAB
+---------------------------------------------------------------------------
+Classifier name      ANN           KNN            SVM 
+---------------------------------------------------------------------------
+Precision           0.4391         0.4292         0.4167 
+Recall              0.8600         0.8516         0.7843 
+F1score             0.5814         0.5708         0.5442 
+Accuracy            0.9470         0.9452         0.9438 
+Specificity         0.9509         0.9493         0.9509 
+--------------------------------------------------------------------------- 
+GlobalAccuracy      0.9470         0.9452         0.9438 
+MeanAccuracy        0.9054         0.9005         0.8676 
+MeanIoU             0.6774         0.6712         0.6578 
+WeightedIoU         0.9220         0.9198         0.9175 
+MeanBFScore         0.6825         0.6556         0.6526 
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+
+Algorithm Type Switch 
+---------------------------------------------------------------------------
+Algorithm type: hybrid_MFAT 
+Classifier required to filter blobs: classifier 
+Post-processing using circularity index: 0 
+Post-processing type: circularity 
+Image closing switch: 0 
+Image closing structuring element disk size: 5 
+Crack debrancher: no 
+Crack thin prune method: alex 
+Crack thin prune threshold: 0.350 
+Crack or cracks + non-cracks: crack_only 
+
+
+Algorithm Inputs 
+---------------------------------------------------------------------------
+Circularity threshold: 0.0200 0.2000
+Image contrasting algorithm: image_adjust 
+Block size [rows cols] 15000 15000 
+Non-crack class number: 1 
+Crack class number: 2 
+CC overlap: 50% 
+Blob removal method: autoBlobRemoval
+Blob filter standard deviation scale: 1.0000 
+Blob filter removal area: < 120 pixels
+Anisotropic iteration numbers: 0 0 
+Anisotropic kappa: 15 30 
+MFAT algorithm type: ProbabilisticFAT 
+MFAT scale range: 7.181000e-01 2.439500e+00 
+MFAT scale step size: 2.500000e-01 
+MFAT spacing: 2.6000 
+MFAT whiteondark: 0 
+MFAT tau: 0.2500 
+MFAT tau2: 0.5000 
+MFAT D: 0.5000 
+
+
+Trained Classifiers 
+---------------------------------------------------------------------------
+ANN classifier filename: ZZZ_MdlANN_mfat_Realworld_elasticDefAug.mat
+KNN classifier filename: ZZZ_MdlKNN_mfat_Realworld_elasticDefAug.mat
+SVM classifier filename: ZZZ_MdlSVM_mfat_Realworld_elasticDefAug.mat
+
+
+Each object wise (Bounding Box) classification results 
+---------------------------------------------------------------------------
+Classifier name      ANN           KNN            SVM 
+---------------------------------------------------------------------------
+Precision           0.4359         0.1799         0.1560 
+Recall              0.7907         0.7907         0.7907 
+F1score             0.5620         0.2931         0.2605 
+
+
+Each object wise (Pixels) classification results 
+---------------------------------------------------------------------------
+Classifier name      ANN           KNN            SVM 
+---------------------------------------------------------------------------
+Precision           0.5703         0.5642         0.5529 
+Recall              0.7901         0.7936         0.7944 
+F1score             0.6624         0.6595         0.6520 
+Accuracy            0.9655         0.9649         0.9637 
+Specificity         0.9734         0.9726         0.9713 
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+
+
+Each object wise (Bounding Box) classification results by MATLAB
+---------------------------------------------------------------------------
+Classifier name      ANN           KNN            SVM 
+---------------------------------------------------------------------------
+Precision           0.4359         0.1799         0.1560 
+Recall              0.7907         0.7907         0.7907 
+F1score             0.5620         0.2931         0.2605 
+
+
+Each object wise (Pixels) classification results by MATLAB
+---------------------------------------------------------------------------
+Classifier name      ANN           KNN            SVM 
+---------------------------------------------------------------------------
+Precision           0.5703         0.5642         0.5529 
+Recall              0.7901         0.7936         0.7944 
+F1score             0.6624         0.6595         0.6520 
+Accuracy            0.9655         0.9649         0.9637 
+Specificity         0.9734         0.9726         0.9713 
+--------------------------------------------------------------------------- 
+GlobalAccuracy      0.9655         0.9649         0.9637 
+MeanAccuracy        0.8818         0.8831         0.8828 
+MeanIoU             0.7298         0.7278         0.7230 
+WeightedIoU         0.9442         0.9435         0.9419 
+MeanBFScore         0.7402         0.7312         0.7285 
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+
+Algorithm Type Switch 
+---------------------------------------------------------------------------
+Algorithm type: morpho 
+Classifier required to filter blobs: classifier 
+Post-processing using circularity index: 0 
+Post-processing type: circularity 
+Image closing switch: 0 
+Image closing structuring element disk size: 5 
+Crack debrancher: no 
+Crack thin prune method: alex 
+Crack thin prune threshold: 0.350 
+Crack or cracks + non-cracks: crack_only 
+
+
+Algorithm Inputs 
+---------------------------------------------------------------------------
+Circularity threshold: 0.0200 0.2000
+Image contrasting algorithm: image_adjust 
+Block size [rows cols] 15000 15000 
+Non-crack class number: 1 
+Crack class number: 2 
+CC overlap: 50% 
+Blob removal method: autoBlobRemoval
+Blob filter standard deviation scale: 1.0000 
+Blob filter removal area: < 120 pixels
+Minimum crack size in pixel: 1
+Maximum crack size in pixel: 30
+Maximum crack size in pixel: 3
+Angle of structuring element: 0
+Angle of structuring element: 45
+Angle of structuring element: 90
+Angle of structuring element: 135
+
+
+Trained Classifiers 
+---------------------------------------------------------------------------
+ANN classifier filename: ZZZ_MdlANN_morpho_Realworld_elasticDefAug.mat
+KNN classifier filename: ZZZ_MdlKNN_morpho_Realworld_elasticDefAug.mat
+SVM classifier filename: ZZZ_MdlSVM_morpho_Realworld_elasticDefAug.mat
+
+
+Each object wise (Bounding Box) classification results 
+---------------------------------------------------------------------------
+Classifier name      ANN           KNN            SVM 
+---------------------------------------------------------------------------
+Precision           0.2941         0.3676         0.0049 
+Recall              0.5814         0.5814         0.5814 
+F1score             0.3906         0.4505         0.0096 
+
+
+Each object wise (Pixels) classification results 
+---------------------------------------------------------------------------
+Classifier name      ANN           KNN            SVM 
+---------------------------------------------------------------------------
+Precision           0.5928         0.5741         0.4996 
+Recall              0.7406         0.7322         0.7370 
+F1score             0.6585         0.6436         0.5955 
+Accuracy            0.9671         0.9653         0.9571 
+Specificity         0.9772         0.9757         0.9670 
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+
+
+Each object wise (Bounding Box) classification results by MATLAB
+---------------------------------------------------------------------------
+Classifier name      ANN           KNN            SVM 
+---------------------------------------------------------------------------
+Precision           0.2941         0.3676         0.0049 
+Recall              0.5814         0.5814         0.5814 
+F1score             0.3906         0.4505         0.0096 
+
+
+Each object wise (Pixels) classification results by MATLAB
+---------------------------------------------------------------------------
+Classifier name      ANN           KNN            SVM 
+---------------------------------------------------------------------------
+Precision           0.5928         0.5741         0.4996 
+Recall              0.7406         0.7322         0.7370 
+F1score             0.6585         0.6436         0.5955 
+Accuracy            0.9671         0.9653         0.9571 
+Specificity         0.9772         0.9757         0.9670 
+--------------------------------------------------------------------------- 
+GlobalAccuracy      0.9671         0.9653         0.9571 
+MeanAccuracy        0.8589         0.8540         0.8520 
+MeanIoU             0.7285         0.7193         0.6899 
+WeightedIoU         0.9457         0.9432         0.9330 
+MeanBFScore         0.7788         0.7704         0.6601 
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+

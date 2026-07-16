@@ -1,0 +1,4 @@
+synthetic vertical: 0.0334 seconds
+synthetic horizontal: 0.0341 seconds
+synthetic diagonal corners: 0.0301 seconds
+synthetic diagonal non-corners: 0.0299 seconds
