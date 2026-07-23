@@ -1,0 +1,1495 @@
+Overall/global required MATLAB products/toolboxes:
+   1) Computer Vision Toolbox
+      Version       : 25.2
+      ProductNumber : `
+   2) Deep Learning Toolbox
+      Version       : 25.2
+      ProductNumber : 
+   3) Image Processing Toolbox
+      Version       : 25.2
+      ProductNumber : 
+   4) MATLAB
+      Version       : 25.2
+      ProductNumber : 
+   5) Parallel Computing Toolbox
+      Version       : 25.2
+      ProductNumber : P
+   6) Simulink
+      Version       : 25.2
+      ProductNumber : 
+   7) Simulink Real-Time
+      Version       : 25.2
+      ProductNumber : 8
+   8) Stateflow
+      Version       : 25.2
+      ProductNumber : &
+   9) Statistics and Machine Learning Toolbox
+      Version       : 25.2
+      ProductNumber : 
+  10) System Identification Toolbox
+      Version       : 25.2
+      ProductNumber : 
+
+Toolbox usage summary:
+  - Computer Vision Toolbox : used in 9 file(s)
+        • GTExtractor_2020_ParFor.m
+        • TruePositive_FalsePositive_FalseNegative_Bbox_2021b.m
+        • calculate_Results2Write.m
+        • classifierResult_2017Revised.m
+        • classifierResult_2020_ParFor.m
+        • crack_deBrancher.m
+        • crack_deBrancher_BP2EPnBP_LengthConstraint_Feb2019.m
+        • crack_deBrancher_BPLengthConstraint.m
+        • store_ROC_Values.m
+  - Deep Learning Toolbox : used in 10 file(s)
+        • CrackUniqueness_ElasticDeformation.m
+        • ANNClassifier.m
+        • ANNClassifier_Hybrid_Iterative.m
+        • ROC_Curves_TrainingDataset.m
+        • RealCracksClassifierOutput_Paper.m
+        • calculate_Results2Write.m
+        • classifierResult_2017Revised.m
+        • classifierResult_2020_ParFor.m
+        • shuffleFeatMatLabel.m
+        • store_ROC_Values.m
+  - Image Processing Toolbox : used in 50 file(s)
+        • CrackGenerator_Shearing.m
+        • CrackGenerator_ElasticDeformation.m
+        • CrackGenerator_PolynomialCurve_ElasticDeformation.m
+        • CrackUniqueness_ElasticDeformation.m
+        • ImageBlender.m
+        • elastic_deformation.m
+        • filter_stage_I.m
+        • funct_energyGrey.m
+        • funct_findOptCrackStrand_LongestPath_Diagonal.m
+        • funct_findOptCrackStrand_LongestPath_Horizontal.m
+        • funct_findOptCrackStrand_LongestPath_Vertical.m
+        • funct_findOptCrackStrand_ShortestPath_Diagonal.m
+        • funct_findOptCrackStrand_ShortestPath_Horizontal.m
+        • funct_findOptCrackStrand_ShortestPath_Vertical.m
+        • imoverlay.m
+        • methodology_Paper.m
+        • Calculate_CrackWidthLength_Paper.m
+        • Datasets_Results_Montage_Paper_1.m
+        • Datasets_Results_Montage_Paper_2.m
+        • Datasets_Results_Montage_Paper_3.m
+        • FractionalIstropicTensor.m
+        • GTExtractor_2020_ParFor.m
+        • Hessian2D.m
+        • ProbabiliticFractionalIstropicTensor.m
+        • ProbabiliticMFATSigmas.m
+        • ProbabiliticMFATSpacing.m
+        • SyntheticCrack_nonCrack_Montageplot_Paper.m
+        • TruePositive_FalsePositive_FalseNegative_Bbox_2021b.m
+        • TruePositive_FalsePositive_FalseNegative_Pixel_2018.m
+        • blobFilter.m
+        • classifierResult_2017Revised.m
+        • classifierResult_2020_ParFor.m
+        • clusterCracksStrands.m
+        • crack_deBrancher.m
+        • crack_deBrancher_BP2EPnBP_LengthConstraint_Feb2019.m
+        • crack_deBrancher_BPLengthConstraint.m
+        • crack_non_crackfeaturesNlabels_2018Revised_5JahanFeatures.m
+        • funct_crackDetect_Salembier_Sinha_Jahan.m
+        • groundNnoisy_BWimage.m
+        • hausDim.m
+        • hysthresh.m
+        • imconversion2gray.m
+        • largeFeaturematrixNlabels2025.m
+        • liuTrainValDataset.m
+        • skeletonFMM.m
+        • synMontage.m
+        • synMontageElasticDef.m
+        • vis_Labels_CircIndex.m
+        • vislabels.m
+        • voronoiSkel.m
+  - MATLAB : used in 128 file(s)
+        • CrackGenerator_Shearing.m
+        • GTMaker_Dataset_Xincong.m
+        • MainInputs_TestingDataset_Xincong.m
+        • Main_TestingDataset_Xincong.m
+        • funct_findOptCrackStrand_ShortestPath_Diagonal.m
+        • CrackGenerator_ElasticDeformation.m
+        • CrackGenerator_PolynomialCurve_ElasticDeformation.m
+        • CrackUniqueness_ElasticDeformation.m
+        • ImageBlender.m
+        • elastic_def_multiplicator.m
+        • elastic_deformation.m
+        • filter_stage_I.m
+        • funct_energyGrey.m
+        • funct_energyRGB.m
+        • funct_findOptCrackStrand_LongestPath_Diagonal.m
+        • funct_findOptCrackStrand_LongestPath_Horizontal.m
+        • funct_findOptCrackStrand_LongestPath_Vertical.m
+        • funct_findOptCrackStrand_ShortestPath_Horizontal.m
+        • funct_findOptCrackStrand_ShortestPath_Vertical.m
+        • imoverlay.m
+        • methodology_Paper.m
+        • randomString.m
+        • waitbarParfor.m
+        • ANNClassifier.m
+        • ANNClassifier_Hybrid_Iterative.m
+        • AllMetricsTextFile.m
+        • BPDetection_Mohsin.m
+        • Calculate_CrackWidthLength_Paper.m
+        • Datasets_Results_Montage_Paper_1.m
+        • Datasets_Results_Montage_Paper_2.m
+        • Datasets_Results_Montage_Paper_3.m
+        • Extract_Public_Dataset_Cracks2Classes.m
+        • FractionalIstropicTensor.m
+        • FrangiFilter2D.m
+        • GTExtractor_2020_ParFor.m
+        • GTMaker_Dataset_CDLN.m
+        • GTMaker_Dataset_Jahan.m
+        • GTMaker_Dataset_Liu.m
+        • Hessian2D.m
+        • ImageWriter.m
+        • KNNClassifier.m
+        • MainInputs_TestingDataset_CDLN.m
+        • MainInputs_TestingDataset_Jahan.m
+        • MainInputs_TestingDataset_Liu.m
+        • MainInputs_Training_Realworld_Augment_Dataset.m
+        • MainInputs_Training_Realworld_Dataset.m
+        • MainInputs_Training_Synthetic_Dataset.m
+        • Main_TestingDataset_CDLN.m
+        • Main_TestingDataset_Jahan.m
+        • Main_TestingDataset_Liu.m
+        • Main_Training_Realworld_Augment_Dataset_Parfor.m
+        • Main_Training_Realworld_Dataset_Parfor.m
+        • Main_Training_Synthetic_Dataset_Parfor.m
+        • Points.m
+        • PoolWaitbar.m
+        • ProbabiliticFractionalIstropicTensor.m
+        • ProbabiliticMFATSigmas.m
+        • ProbabiliticMFATSpacing.m
+        • ProcessFilesStoreResults.m
+        • ProcessFilesStoreResults_Compact.m
+        • ProcessFilesStoreResults_ParFor.m
+        • Processed_Results.m
+        • ROC_Curves_TestingDataset.m
+        • ROC_Curves_TrainingDataset.m
+        • RealCracksClassifierOutput_Paper.m
+        • SVMClassifier.m
+        • SplitDataLabels.m
+        • Strand.m
+        • SyntheticCrack_nonCrack_Montageplot_Paper.m
+        • TruePositive_FalsePositive_FalseNegative_Bbox_2021b.m
+        • TruePositive_FalsePositive_FalseNegative_Pixel_2018.m
+        • addborder.m
+        • arclength.m
+        • augmentCracks.m
+        • binarizeImages.m
+        • blobFilter.m
+        • bresenham.m
+        • calculate_Results2Write.m
+        • classifierResult_2017Revised.m
+        • classifierResult_2020_ParFor.m
+        • clusterCracksStrands.m
+        • combineCrackNoncrackFML.m
+        • concatenateCracksFM.m
+        • crackWidthLocation.m
+        • crack_deBrancher.m
+        • crack_deBrancher_BP2EPnBP_LengthConstraint_Feb2019.m
+        • crack_deBrancher_BPLengthConstraint.m
+        • crack_non_crackfeaturesNlabels_2018Revised_5JahanFeatures.m
+        • deleteEmptyImages.m
+        • eig2image.m
+        • extractFrangiMFAT_Results.m
+        • extract_metrics.m
+        • filenamesort.m
+        • fixClass2Labels.m
+        • funct_crackDetect_Salembier_Sinha_Jahan.m
+        • getFoldersImds.m
+        • getmidpointcircle.m
+        • groundNnoisy_BWimage.m
+        • hausDim.m
+        • hysthresh.m
+        • imconversion2gray.m
+        • largeFeaturematrixNlabels2025.m
+        • largeFeaturematrixNlabelsRealworldData2025.m
+        • liuTrainValDataset.m
+        • msfm.m
+        • multiclassPrecision_Recall.m
+        • multiclass_metrics.m
+        • natsort.m
+        • normalize.m
+        • orphanBlobsRemoveImages.m
+        • rmse.m
+        • shortestpath.m
+        • shuffleFeatMatLabel.m
+        • skeletonFMM.m
+        • store_ROC_Values.m
+        • synMontage.m
+        • synMontageElasticDef.m
+        • uniqueCrackNoncrackFML.m
+        • vis_Labels_CircIndex.m
+        • vislabels.m
+        • voronoiSkel.m
+        • wrtiteOutputs2TextFile.m
+        • msfm2d.m
+        • msfm3d.m
+        • pointmin.m
+        • e1.m
+        • rk4.m
+        • s1.m
+  - Parallel Computing Toolbox : used in 27 file(s)
+        • GTMaker_Dataset_Xincong.m
+        • Main_TestingDataset_Xincong.m
+        • CrackGenerator_ElasticDeformation.m
+        • CrackGenerator_PolynomialCurve_ElasticDeformation.m
+        • elastic_def_multiplicator.m
+        • ANNClassifier_Hybrid_Iterative.m
+        • Extract_Public_Dataset_Cracks2Classes.m
+        • GTExtractor_2020_ParFor.m
+        • GTMaker_Dataset_CDLN.m
+        • GTMaker_Dataset_Jahan.m
+        • GTMaker_Dataset_Liu.m
+        • Main_TestingDataset_CDLN.m
+        • Main_TestingDataset_Jahan.m
+        • Main_TestingDataset_Liu.m
+        • Main_Training_Realworld_Augment_Dataset_Parfor.m
+        • Main_Training_Realworld_Dataset_Parfor.m
+        • Main_Training_Synthetic_Dataset_Parfor.m
+        • ProcessFilesStoreResults_ParFor.m
+        • augmentCracks.m
+        • binarizeImages.m
+        • classifierResult_2020_ParFor.m
+        • clusterCracksStrands.m
+        • deleteEmptyImages.m
+        • imconversion2gray.m
+        • largeFeaturematrixNlabels2025.m
+        • largeFeaturematrixNlabelsRealworldData2025.m
+        • orphanBlobsRemoveImages.m
+  - Simulink : used in 3 file(s)
+        • RealCracksClassifierOutput_Paper.m
+        • classifierResult_2017Revised.m
+        • classifierResult_2020_ParFor.m
+  - Simulink Real-Time : used in 3 file(s)
+        • RealCracksClassifierOutput_Paper.m
+        • classifierResult_2017Revised.m
+        • classifierResult_2020_ParFor.m
+  - Stateflow : used in 3 file(s)
+        • RealCracksClassifierOutput_Paper.m
+        • classifierResult_2017Revised.m
+        • classifierResult_2020_ParFor.m
+  - Statistics and Machine Learning Toolbox : used in 19 file(s)
+        • CrackGenerator_PolynomialCurve_ElasticDeformation.m
+        • CrackUniqueness_ElasticDeformation.m
+        • ImageBlender.m
+        • KNNClassifier.m
+        • Main_Training_Realworld_Augment_Dataset_Parfor.m
+        • Main_Training_Realworld_Dataset_Parfor.m
+        • Main_Training_Synthetic_Dataset_Parfor.m
+        • ROC_Curves_TrainingDataset.m
+        • SVMClassifier.m
+        • blobFilter.m
+        • calculate_Results2Write.m
+        • classifierResult_2017Revised.m
+        • classifierResult_2020_ParFor.m
+        • combineCrackNoncrackFML.m
+        • concatenateCracksFM.m
+        • largeFeaturematrixNlabels2025.m
+        • liuTrainValDataset.m
+        • shuffleFeatMatLabel.m
+        • store_ROC_Values.m
+  - System Identification Toolbox : used in 5 file(s)
+        • KNNClassifier.m
+        • RealCracksClassifierOutput_Paper.m
+        • SVMClassifier.m
+        • classifierResult_2017Revised.m
+        • classifierResult_2020_ParFor.m
+
+Per-file required MATLAB products/toolboxes:
+
+  CrackGenerator_Shearing.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  GTMaker_Dataset_Xincong.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+
+  MainInputs_TestingDataset_Xincong.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  Main_TestingDataset_Xincong.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+
+  funct_findOptCrackStrand_ShortestPath_Diagonal.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  CrackGenerator_ElasticDeformation.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     3) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+
+  CrackGenerator_PolynomialCurve_ElasticDeformation.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     3) Statistics and Machine Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     4) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+
+  CrackUniqueness_ElasticDeformation.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Deep Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     3) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     4) Statistics and Machine Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  ImageBlender.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     3) Statistics and Machine Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  elastic_def_multiplicator.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+
+  elastic_deformation.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  filter_stage_I.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  funct_energyGrey.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  funct_energyRGB.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  funct_findOptCrackStrand_LongestPath_Diagonal.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  funct_findOptCrackStrand_LongestPath_Horizontal.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  funct_findOptCrackStrand_LongestPath_Vertical.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  funct_findOptCrackStrand_ShortestPath_Diagonal.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  funct_findOptCrackStrand_ShortestPath_Horizontal.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  funct_findOptCrackStrand_ShortestPath_Vertical.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  imoverlay.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  methodology_Paper.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  randomString.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  waitbarParfor.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  ANNClassifier.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Deep Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  ANNClassifier_Hybrid_Iterative.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Deep Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     3) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+
+  AllMetricsTextFile.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  BPDetection_Mohsin.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  Calculate_CrackWidthLength_Paper.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  Datasets_Results_Montage_Paper_1.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  Datasets_Results_Montage_Paper_2.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  Datasets_Results_Montage_Paper_3.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  Extract_Public_Dataset_Cracks2Classes.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+
+  FractionalIstropicTensor.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  FrangiFilter2D.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  GTExtractor_2020_ParFor.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     3) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+     4) Computer Vision Toolbox
+        Version       : 25.2
+        ProductNumber : `
+
+  GTMaker_Dataset_CDLN.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+
+  GTMaker_Dataset_Jahan.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+
+  GTMaker_Dataset_Liu.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+
+  Hessian2D.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  ImageWriter.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  KNNClassifier.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) System Identification Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     3) Statistics and Machine Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  MainInputs_TestingDataset_CDLN.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  MainInputs_TestingDataset_Jahan.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  MainInputs_TestingDataset_Liu.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  MainInputs_Training_Realworld_Augment_Dataset.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  MainInputs_Training_Realworld_Dataset.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  MainInputs_Training_Synthetic_Dataset.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  Main_TestingDataset_CDLN.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+
+  Main_TestingDataset_Jahan.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+
+  Main_TestingDataset_Liu.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+
+  Main_Training_Realworld_Augment_Dataset_Parfor.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Statistics and Machine Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     3) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+
+  Main_Training_Realworld_Dataset_Parfor.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Statistics and Machine Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     3) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+
+  Main_Training_Synthetic_Dataset_Parfor.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Statistics and Machine Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     3) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+
+  Points.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  PoolWaitbar.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  ProbabiliticFractionalIstropicTensor.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  ProbabiliticMFATSigmas.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  ProbabiliticMFATSpacing.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  ProcessFilesStoreResults.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  ProcessFilesStoreResults_Compact.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  ProcessFilesStoreResults_ParFor.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+
+  Processed_Results.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  ROC_Curves_TestingDataset.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  ROC_Curves_TrainingDataset.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Deep Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     3) Statistics and Machine Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  RealCracksClassifierOutput_Paper.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) System Identification Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     3) Deep Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     4) Simulink
+        Version       : 25.2
+        ProductNumber : 
+     5) Simulink Real-Time
+        Version       : 25.2
+        ProductNumber : 8
+     6) Stateflow
+        Version       : 25.2
+        ProductNumber : &
+
+  SVMClassifier.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) System Identification Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     3) Statistics and Machine Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  SplitDataLabels.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  Strand.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  SyntheticCrack_nonCrack_Montageplot_Paper.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  TruePositive_FalsePositive_FalseNegative_Bbox_2021b.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     3) Computer Vision Toolbox
+        Version       : 25.2
+        ProductNumber : `
+
+  TruePositive_FalsePositive_FalseNegative_Pixel_2018.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  addborder.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  arclength.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  augmentCracks.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+
+  binarizeImages.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+
+  blobFilter.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     3) Statistics and Machine Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  bresenham.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  calculate_Results2Write.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Computer Vision Toolbox
+        Version       : 25.2
+        ProductNumber : `
+     3) Deep Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     4) Statistics and Machine Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  classifierResult_2017Revised.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) System Identification Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     3) Deep Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     4) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     5) Statistics and Machine Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     6) Computer Vision Toolbox
+        Version       : 25.2
+        ProductNumber : `
+     7) Simulink
+        Version       : 25.2
+        ProductNumber : 
+     8) Simulink Real-Time
+        Version       : 25.2
+        ProductNumber : 8
+     9) Stateflow
+        Version       : 25.2
+        ProductNumber : &
+
+  classifierResult_2020_ParFor.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) System Identification Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     3) Deep Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     4) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     5) Statistics and Machine Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     6) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+     7) Computer Vision Toolbox
+        Version       : 25.2
+        ProductNumber : `
+     8) Simulink
+        Version       : 25.2
+        ProductNumber : 
+     9) Simulink Real-Time
+        Version       : 25.2
+        ProductNumber : 8
+    10) Stateflow
+        Version       : 25.2
+        ProductNumber : &
+
+  clusterCracksStrands.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     3) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+
+  combineCrackNoncrackFML.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Statistics and Machine Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  concatenateCracksFM.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Statistics and Machine Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  crackWidthLocation.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  crack_deBrancher.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     3) Computer Vision Toolbox
+        Version       : 25.2
+        ProductNumber : `
+
+  crack_deBrancher_BP2EPnBP_LengthConstraint_Feb2019.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     3) Computer Vision Toolbox
+        Version       : 25.2
+        ProductNumber : `
+
+  crack_deBrancher_BPLengthConstraint.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     3) Computer Vision Toolbox
+        Version       : 25.2
+        ProductNumber : `
+
+  crack_non_crackfeaturesNlabels_2018Revised_5JahanFeatures.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  deleteEmptyImages.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+
+  eig2image.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  extractFrangiMFAT_Results.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  extract_metrics.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  filenamesort.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  filter_stage_I.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  fixClass2Labels.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  funct_crackDetect_Salembier_Sinha_Jahan.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  getFoldersImds.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  getmidpointcircle.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  groundNnoisy_BWimage.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  hausDim.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  hysthresh.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  imconversion2gray.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     3) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+
+  imoverlay.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  largeFeaturematrixNlabels2025.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     3) Statistics and Machine Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     4) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+
+  largeFeaturematrixNlabelsRealworldData2025.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+
+  liuTrainValDataset.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     3) Statistics and Machine Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  msfm.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  multiclassPrecision_Recall.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  multiclass_metrics.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  natsort.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  normalize.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  orphanBlobsRemoveImages.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Parallel Computing Toolbox
+        Version       : 25.2
+        ProductNumber : P
+
+  randomString.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  rmse.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  shortestpath.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  shuffleFeatMatLabel.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Deep Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     3) Statistics and Machine Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  skeletonFMM.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  store_ROC_Values.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Computer Vision Toolbox
+        Version       : 25.2
+        ProductNumber : `
+     3) Deep Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+     4) Statistics and Machine Learning Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  synMontage.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  synMontageElasticDef.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  uniqueCrackNoncrackFML.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  vis_Labels_CircIndex.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  vislabels.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  voronoiSkel.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+     2) Image Processing Toolbox
+        Version       : 25.2
+        ProductNumber : 
+
+  waitbarParfor.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  wrtiteOutputs2TextFile.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  msfm2d.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  msfm3d.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  pointmin.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  e1.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  rk4.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+  s1.m
+     1) MATLAB
+        Version       : 25.2
+        ProductNumber : 
+
+Files analyzed:
+  - CrackGenerator_Shearing.m
+  - GTMaker_Dataset_Xincong.m
+  - MainInputs_TestingDataset_Xincong.m
+  - Main_TestingDataset_Xincong.m
+  - funct_findOptCrackStrand_ShortestPath_Diagonal.m
+  - CrackGenerator_ElasticDeformation.m
+  - CrackGenerator_PolynomialCurve_ElasticDeformation.m
+  - CrackUniqueness_ElasticDeformation.m
+  - ImageBlender.m
+  - elastic_def_multiplicator.m
+  - elastic_deformation.m
+  - filter_stage_I.m
+  - funct_energyGrey.m
+  - funct_energyRGB.m
+  - funct_findOptCrackStrand_LongestPath_Diagonal.m
+  - funct_findOptCrackStrand_LongestPath_Horizontal.m
+  - funct_findOptCrackStrand_LongestPath_Vertical.m
+  - funct_findOptCrackStrand_ShortestPath_Diagonal.m
+  - funct_findOptCrackStrand_ShortestPath_Horizontal.m
+  - funct_findOptCrackStrand_ShortestPath_Vertical.m
+  - imoverlay.m
+  - methodology_Paper.m
+  - randomString.m
+  - waitbarParfor.m
+  - ANNClassifier.m
+  - ANNClassifier_Hybrid_Iterative.m
+  - AllMetricsTextFile.m
+  - BPDetection_Mohsin.m
+  - Calculate_CrackWidthLength_Paper.m
+  - Datasets_Results_Montage_Paper_1.m
+  - Datasets_Results_Montage_Paper_2.m
+  - Datasets_Results_Montage_Paper_3.m
+  - Extract_Public_Dataset_Cracks2Classes.m
+  - FractionalIstropicTensor.m
+  - FrangiFilter2D.m
+  - GTExtractor_2020_ParFor.m
+  - GTMaker_Dataset_CDLN.m
+  - GTMaker_Dataset_Jahan.m
+  - GTMaker_Dataset_Liu.m
+  - Hessian2D.m
+  - ImageWriter.m
+  - KNNClassifier.m
+  - MainInputs_TestingDataset_CDLN.m
+  - MainInputs_TestingDataset_Jahan.m
+  - MainInputs_TestingDataset_Liu.m
+  - MainInputs_Training_Realworld_Augment_Dataset.m
+  - MainInputs_Training_Realworld_Dataset.m
+  - MainInputs_Training_Synthetic_Dataset.m
+  - Main_TestingDataset_CDLN.m
+  - Main_TestingDataset_Jahan.m
+  - Main_TestingDataset_Liu.m
+  - Main_Training_Realworld_Augment_Dataset_Parfor.m
+  - Main_Training_Realworld_Dataset_Parfor.m
+  - Main_Training_Synthetic_Dataset_Parfor.m
+  - Points.m
+  - PoolWaitbar.m
+  - ProbabiliticFractionalIstropicTensor.m
+  - ProbabiliticMFATSigmas.m
+  - ProbabiliticMFATSpacing.m
+  - ProcessFilesStoreResults.m
+  - ProcessFilesStoreResults_Compact.m
+  - ProcessFilesStoreResults_ParFor.m
+  - Processed_Results.m
+  - ROC_Curves_TestingDataset.m
+  - ROC_Curves_TrainingDataset.m
+  - RealCracksClassifierOutput_Paper.m
+  - SVMClassifier.m
+  - SplitDataLabels.m
+  - Strand.m
+  - SyntheticCrack_nonCrack_Montageplot_Paper.m
+  - TruePositive_FalsePositive_FalseNegative_Bbox_2021b.m
+  - TruePositive_FalsePositive_FalseNegative_Pixel_2018.m
+  - addborder.m
+  - arclength.m
+  - augmentCracks.m
+  - binarizeImages.m
+  - blobFilter.m
+  - bresenham.m
+  - calculate_Results2Write.m
+  - classifierResult_2017Revised.m
+  - classifierResult_2020_ParFor.m
+  - clusterCracksStrands.m
+  - combineCrackNoncrackFML.m
+  - concatenateCracksFM.m
+  - crackWidthLocation.m
+  - crack_deBrancher.m
+  - crack_deBrancher_BP2EPnBP_LengthConstraint_Feb2019.m
+  - crack_deBrancher_BPLengthConstraint.m
+  - crack_non_crackfeaturesNlabels_2018Revised_5JahanFeatures.m
+  - deleteEmptyImages.m
+  - eig2image.m
+  - extractFrangiMFAT_Results.m
+  - extract_metrics.m
+  - filenamesort.m
+  - filter_stage_I.m
+  - fixClass2Labels.m
+  - funct_crackDetect_Salembier_Sinha_Jahan.m
+  - getFoldersImds.m
+  - getmidpointcircle.m
+  - groundNnoisy_BWimage.m
+  - hausDim.m
+  - hysthresh.m
+  - imconversion2gray.m
+  - imoverlay.m
+  - largeFeaturematrixNlabels2025.m
+  - largeFeaturematrixNlabelsRealworldData2025.m
+  - liuTrainValDataset.m
+  - msfm.m
+  - multiclassPrecision_Recall.m
+  - multiclass_metrics.m
+  - natsort.m
+  - normalize.m
+  - orphanBlobsRemoveImages.m
+  - randomString.m
+  - rmse.m
+  - shortestpath.m
+  - shuffleFeatMatLabel.m
+  - skeletonFMM.m
+  - store_ROC_Values.m
+  - synMontage.m
+  - synMontageElasticDef.m
+  - uniqueCrackNoncrackFML.m
+  - vis_Labels_CircIndex.m
+  - vislabels.m
+  - voronoiSkel.m
+  - waitbarParfor.m
+  - wrtiteOutputs2TextFile.m
+  - msfm2d.m
+  - msfm3d.m
+  - pointmin.m
+  - e1.m
+  - rk4.m
+  - s1.m
